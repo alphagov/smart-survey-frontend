@@ -224,9 +224,6 @@ span.optional-label {
 ul.ss-list-vert li,
 ul.ss-list-hori li {
     padding: 2px 20px 20px 35px !important;
-    margin: 0 !important;
-    overflow: visible !important;
-    float: left;
 }
 ul.ss-list-vert li:hover,
 ul.ss-list-hori li:hover {
@@ -485,6 +482,10 @@ table.ss-matrix-table td{
 
 .ss-qtype-checkbox ul.ss-list label span {
     display:inline-block;
+}
+.ss-qtype-checkbox .ss-cols {
+  float: none;
+  width: auto;
 }
 
 .ss-survey-button-holder input,
