@@ -388,12 +388,6 @@ table.ss-matrix-table td{
     display: block;
 }
 
-
-.ss-question-options th,
-.ss-question-options td {
-    display: block;
-}
-
 .ss-qtype-multi-text td {
     padding: 0!important;
     margin-bottom: 15px;
