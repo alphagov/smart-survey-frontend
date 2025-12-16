@@ -390,6 +390,11 @@ table.ss-matrix-table td{
     margin-bottom: 15px;
 }
 
+.ss-input-matrix-radio {
+  width: 1em;
+  height: 1em;
+}
+
 /* FORM VALIDATION
 -----------------------------------------------------------------------*/
 
