@@ -221,64 +221,9 @@ span.optional-label {
 }
 
 /* Radio buttons */
-ul.ss-list-vert li,
-ul.ss-list-hori li {
-    padding: 2px 20px 20px 35px !important;
-}
-ul.ss-list-vert li:hover,
-ul.ss-list-hori li:hover {
-    background-color: transparent !important;
-}
-ul.ss-list-hori li {
-    float: left !important;
-}
-.ss-option-title > input {
-    position: absolute;
-    cursor: pointer;
-    left: 0px;
-    top: 0;
-    width: 48px;
-    height: 45px;
-    z-index: 1;
-    margin: 0;
-    zoom: 1;
-    filter: alpha(opacity=0);
-    opacity: 0;
-    width: 100%;
-}
-.ss-option-title [type="radio"] + span::before {
-    content: "";
-    border: 2px solid;
-    background: transparent;
-    width: 34px;
-    height: 34px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-}
-.ss-option-title [type="radio"]:focus + span::before,
-.ss-option-title [type="checkbox"]:focus + span::before {
-    -webkit-box-shadow: 0 0 0 3px #ffdd00;
-    -moz-box-shadow: 0 0 0 3px #ffdd00;
-    box-shadow: 0 0 0 3px #ffdd00;
-}
-.ss-option-title [type="radio"] + span::after {
-    content: "";
-    border: 10px solid;
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 7px;
-    left: 7px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    zoom: 1;
-    filter: alpha(opacity=0);
-    opacity: 0;
+.ss-qtype-nps input.ss-input-radio {
+  width: 30px;
+  height: 30px;
 }
 .ss-option-title input:checked + span::after {
     zoom: 1;
