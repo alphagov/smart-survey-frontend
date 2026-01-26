@@ -224,6 +224,7 @@ span.optional-label {
 .ss-qtype-nps input.ss-input-radio {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 .ss-option-title input:checked + span::after {
     zoom: 1;
