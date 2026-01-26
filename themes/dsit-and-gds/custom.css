@@ -229,7 +229,6 @@ span.optional-label {
 }
 .ss-list .ss-other {
     display: none;
-    margin-left: -35px !important;
     margin-top: 15px !important;
     border-left: 4px solid #bfc1c3;
     position: relative;
