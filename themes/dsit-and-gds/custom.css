@@ -244,6 +244,9 @@ span.optional-label {
 .ss-list .ss-other .other-option-label {
     margin-bottom: 5px;
 }
+.ss-input-checkbox {
+    display: none;
+}
 .ss-option-title [type="checkbox"] + span::before {
     content: "";
     border: 2px solid;
@@ -433,6 +436,7 @@ table.ss-matrix-table td{
 
 .ss-qtype-checkbox ul.ss-list label span {
     display:inline-block;
+    margin-left: 30px;
 }
 .ss-qtype-checkbox .ss-cols {
   float: none;
